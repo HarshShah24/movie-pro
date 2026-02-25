@@ -19,26 +19,11 @@ Styling: CSS3 / Tailwind CSS
 
 Icons: FontAwesome or similar SVG sets
 
-📂 Project Structure
-Plaintext
-├── public/ # Static assets
-├── src/
-│ ├── components/ # Reusable UI components (MovieCard, SearchBar)
-│ ├── assets/ # Styles and local images
-│ └── App.js # Main application logic
-├── index.html # Entry point
-└── package.json # Dependencies and scripts
-🚦 Getting Started
-Prerequisites
-Node.js (v18 or higher recommended)
-
-npm or yarn
-
 Installation
 Clone the repository:
 
 Bash
-git clone https://github.com/your-username/movie-pro.git
+git clone https://github.com/HarshShah24/movie-pro.git
 Navigate to the directory:
 
 Bash
