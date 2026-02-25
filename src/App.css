@@ -1,0 +1,76 @@
+#root {
+  max-width: none;
+  padding: 2rem;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  background: #333;
+  border: 1px solid #444;
+  color: white;
+  padding: 10px 20px;
+  width: 400px;
+  border-radius: 4px 0 0 4px;
+}
+
+button {
+  background: #e50914; /* Netflix Red */
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.movie-card:hover img {
+  filter: brightness(1.1); /* Makes the poster slightly brighter on hover */
+}
+
+.movie-card:hover {
+  transform: translateY(-10px) scale(1.03); /* Lifts and slightly enlarges */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Adds a deep shadow */
+}
