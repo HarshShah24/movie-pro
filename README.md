@@ -52,7 +52,10 @@ Run the development server:
 Bash
 npm run dev
 
-<video controls width="640">
-  <source src="Overview.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![home_screen.jpg](home_screen.jpg)
+
+![Search.jpg](Search.jpg)
+
+![MovieCard.jpg](MovieCard.jpg)
+
+[Download Overview video](./Overview.mp4)
